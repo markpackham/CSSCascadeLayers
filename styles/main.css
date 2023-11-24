@@ -1,4 +1,10 @@
 /* Layer order - takes priority over how we arrange them below */
 @layer reset, theme, layout, content, components, utility;
 
-@import "reset.css"
+@import "reset.css" layer(reset);
+@import "theme.css" layer(theme);
+@import "layout.css" layer(layout);
+@import "content.css" layer(content);
+@import "components.css" layer(components);
+/* utility but file name different */
+@import "utils.css" layer(utility);
