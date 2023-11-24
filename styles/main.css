@@ -1,18 +1,21 @@
-/* reset */
-body {
-  font-family: 'Rubik';
-  margin: 20px;
-  background: var(--secondary);
+@layer reset {
+  body {
+    font-family: 'Rubik';
+    margin: 20px;
+    background: var(--secondary);
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  section {
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
 }
 
-p,
-h1,
-h2,
-h3,
-section {
-  margin: 0 0 10px 0;
-  padding: 0;
-}
+
 
 /* theme colors */
 :root {
