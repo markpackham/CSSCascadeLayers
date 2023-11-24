@@ -1,0 +1,15 @@
+.rounded {
+  border-radius: 8px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.m-top {
+  margin-top: 40px;
+}
+
+.center {
+  text-align: center;
+}
