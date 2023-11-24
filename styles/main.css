@@ -1,5 +1,6 @@
 /* Layer order - takes priority over how we arrange them below */
-@layer reset, theme, layout, content, components, utility;
+/* Use bulma external library - tricky to figure out it's priority given the variety of classes it has */
+@layer reset, theme, bulma, layout, content, components, utility;
 
 @import "reset.css" layer(reset);
 @import "theme.css" layer(theme);
@@ -8,3 +9,4 @@
 @import "components.css" layer(components);
 /* utility but file name different */
 @import "utils.css" layer(utility);
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" layer(bulma);
